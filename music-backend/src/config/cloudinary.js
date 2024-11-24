@@ -1,6 +1,6 @@
-import { v2 as cloudinary } from 'cloudinary'
+import { v2 as cloudinary } from 'cloudinary';
 
-const connectCloudinary = async ()=>{
+const connectCloudinary = async () =>{
     
     await cloudinary.config({
         cloud_name: process.env.CLOUDINARY_NAME,
